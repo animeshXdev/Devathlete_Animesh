@@ -26,7 +26,7 @@ const Page = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageList.length);
-    }, 3000);
+    }, 3500);
     return () => clearInterval(interval);
   }, []);
 
