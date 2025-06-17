@@ -119,7 +119,7 @@ const formAction = (e: React.FormEvent<HTMLFormElement>) => {
           </h1>
           <div className="mt-4 text-xl sm:text-3xl md:text-4xl font-mono text-gray-500">
             <Typewriter
-              words={['Parkour Athlete', 'A Web Developer', 'Physical Trainer', 'Influencer']}
+              words={['Parkour Athlete', 'A Web Developer', 'Physical Trainer']}
               loop={5}
               cursor
               cursorStyle="_"
