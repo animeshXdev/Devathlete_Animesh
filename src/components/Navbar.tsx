@@ -25,7 +25,7 @@ const Navbar = () => {
       className='sticky top-0 z-50 w-full bg-background shadow-md px-6 py-4 flex justify-between items-center backdrop-blur-lg'
     >
       {/* Title */}
-      <h1 className='text-3xl font-bold font-mono'><span className=' text-cyan-500'>A</span>nimesh</h1>
+     <Link href={"/"}><h1 className='text-3xl font-bold font-mono'><span className=' text-cyan-500'>A</span>nimesh</h1></Link> 
 
       {/* Desktop Navigation */}
       <nav className='hidden md:flex gap-8 items-center'>
